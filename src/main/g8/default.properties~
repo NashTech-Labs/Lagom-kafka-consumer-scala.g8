@@ -1,0 +1,4 @@
+name=Lagom Kafka Consumer Scala
+description=A Giter8 template containing a predefined Kafka consumer in lagom using scala.
+verbatim=*.scala, *.conf
+
