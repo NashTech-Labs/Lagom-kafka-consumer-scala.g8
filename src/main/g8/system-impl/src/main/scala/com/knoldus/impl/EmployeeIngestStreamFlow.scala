@@ -20,8 +20,8 @@ class EmployeeIngestStreamFlow(actorSystem: ActorSystem)(implicit exec: Executio
 
   val processEmployeeInfoFlow: Flow[Employee, Employee, _] = Flow[Employee]
     .mapAsync(kafkaParallelism) { employee =>
-      log.debug(s"Got Employee info from Kafka for [${employee.id}] now processing the info")
-      println(s"here is the employee ${employee.toString}")
+      log.debug("Got Employee info from Kafka for "+ employee.id+ " now processing the info")
+      println("Here is the employee  "+ employee.toString)
       Future.successful(employee)
     }
 
