@@ -1,6 +1,6 @@
 # lagom-kafka-consumer
 
-A Giter8 template for Lagom Kafka Consumer. It is a simple application to show how we can consume from any kafaka topic through lagom
+A Giter8 template for Lagom Kafka Consumer. It is a simple application to show how we can consume from any kafka topic through lagom
 
 Simply run: **sbt new knoldus/lagom-kafka-consumer.g8**
 
